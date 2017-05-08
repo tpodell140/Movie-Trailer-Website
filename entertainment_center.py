@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#Create instances for each Movie
+# Create instances for each Movie
 
 toy_story = media.Movie("Toy Story",
     "http://www.impawards.com/1995/posters/toy_story_ver1.jpg",
@@ -27,8 +27,8 @@ godfather = media.Movie("The Godfather",
                         "http://fontmeme.com/images/The-Godfather-Poster.jpg",
                         "https://www.youtube.com/watch?v=sY1S34973zA")
 
-#Create an array of movies
+# Create an array of movies
 movies = [toy_story, gran_torino, band_of_brothers, harry_potter, o_brother, godfather]
 
-#Pass the array of movies to fresh_tomatoes
+# Pass the array of movies to fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
