@@ -1,5 +1,5 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Movie Trailer Website
+Source code for a Movie Trailer website from Udacity full stack web dev nanodegree.
 
 ## Getting Started
 To generate the webpage, run `entertainment_center.py`. An HTML file named `fresh_tomatoes.html` will be created in the active directory and opened in the default browser.
