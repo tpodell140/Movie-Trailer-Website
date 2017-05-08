@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
     "http://www.impawards.com/1995/posters/toy_story_ver1.jpg",
@@ -25,3 +26,5 @@ godfather = media.Movie("The Godfather",
                         "https://www.youtube.com/watch?v=sY1S34973zA")
 
 movies = [toy_story, gran_torino, band_of_brothers, harry_potter, o_brother, godfather]
+
+fresh_tomatoes.open_movies_page(movies)
